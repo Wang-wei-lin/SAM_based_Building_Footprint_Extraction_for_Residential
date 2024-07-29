@@ -32,14 +32,8 @@ pip install -r requirements.txt
 Download the necessary model files 
 - [sam_vit_h_4b8939.pth](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
 
-Finally, run the following commands to install CUDA and torch：
+Finally, download CUDA, CuDNN and Pytorch according to your computer configuration
 
-```bash
-conda install cudatoolkit=11.8.0
-conda install cudnn
-conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia
-pip install --force-reinstall charset-normalizer==3.1.0
-```
 
 ### File structure
 * the overall directory hierarchical structure is:
